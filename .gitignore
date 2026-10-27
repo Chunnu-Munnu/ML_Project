@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# GTZAN audio: a 1.2 GB archive and 400 songs, fetched by scripts/download_data.py.
+# data/processed/gtzan4.npz (13 MB of pooled clips) is kept so that training and
+# evaluation work without the download.
+data/genres/
+data/*.tar.gz
+data/*.part
+
+# console output of training runs
+results/logs/
+
+# editors and OS
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
