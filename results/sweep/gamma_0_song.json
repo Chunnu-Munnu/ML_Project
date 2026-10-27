@@ -1,0 +1,16 @@
+{
+  "gamma": 0.0,
+  "split": "song",
+  "accuracy": {
+    "train": 0.9965,
+    "dev": 0.461,
+    "test": 0.494
+  },
+  "reconstruction_mse": {
+    "train": 1.0582258701324463,
+    "dev": 1.120564341545105,
+    "test": 1.0643397569656372
+  },
+  "probe_test": 0.474,
+  "best_dev_acc": 0.47200000286102295
+}

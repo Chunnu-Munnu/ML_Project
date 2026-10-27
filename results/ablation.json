@@ -1,0 +1,98 @@
+[
+  {
+    "model": "two_layer",
+    "augment": false,
+    "lr": 0.0001,
+    "accuracy": {
+      "train": 0.9513333333333334,
+      "dev": 0.382,
+      "test": 0.405
+    },
+    "song_vote_test": 0.48,
+    "best_dev_acc": 0.3889999985694885
+  },
+  {
+    "model": "two_layer",
+    "augment": false,
+    "lr": 0.001,
+    "accuracy": {
+      "train": 1.0,
+      "dev": 0.375,
+      "test": 0.428
+    },
+    "song_vote_test": 0.5,
+    "best_dev_acc": 0.4000000059604645
+  },
+  {
+    "model": "two_layer",
+    "augment": true,
+    "lr": 0.0001,
+    "accuracy": {
+      "train": 0.47633333333333333,
+      "dev": 0.441,
+      "test": 0.431
+    },
+    "song_vote_test": 0.54,
+    "best_dev_acc": 0.44699999690055847
+  },
+  {
+    "model": "two_layer",
+    "augment": true,
+    "lr": 0.001,
+    "accuracy": {
+      "train": 0.7686666666666667,
+      "dev": 0.624,
+      "test": 0.668
+    },
+    "song_vote_test": 0.74,
+    "best_dev_acc": 0.6399999856948853
+  },
+  {
+    "model": "dsae",
+    "augment": false,
+    "lr": 0.0001,
+    "accuracy": {
+      "train": 0.9673333333333334,
+      "dev": 0.492,
+      "test": 0.522
+    },
+    "song_vote_test": 0.62,
+    "best_dev_acc": 0.5040000081062317
+  },
+  {
+    "model": "dsae",
+    "augment": false,
+    "lr": 0.001,
+    "accuracy": {
+      "train": 0.9986666666666667,
+      "dev": 0.483,
+      "test": 0.541
+    },
+    "song_vote_test": 0.74,
+    "best_dev_acc": 0.5090000033378601
+  },
+  {
+    "model": "dsae",
+    "augment": true,
+    "lr": 0.0001,
+    "accuracy": {
+      "train": 0.6438333333333334,
+      "dev": 0.601,
+      "test": 0.623
+    },
+    "song_vote_test": 0.62,
+    "best_dev_acc": 0.6010000109672546
+  },
+  {
+    "model": "dsae",
+    "augment": true,
+    "lr": 0.001,
+    "accuracy": {
+      "train": 0.7088333333333333,
+      "dev": 0.617,
+      "test": 0.669
+    },
+    "song_vote_test": 0.7,
+    "best_dev_acc": 0.6299999952316284
+  }
+]
